@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar (Profile Info) -->
+    <div class="sidebar">
+      <div class="profile">
+        <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg" alt="Profile Picture" class="profile-pic">
+        <h2 class="user-name">Saikumar @SKY</h2>
+        <!-- <p class="user-title">Freelancer</p> -->
+        <h1 class="h1">FullStack Web Developer</h1>
+        <button class="edit-profile-btn">Edit Profile</button>
+      </div>
+
+      <!-- pie chart -->
+
+      <div class="chart-container">
+        <p class="para">Pie chart representation based on the different domains projects.</p>
+        <canvas id="pieChart" width="400" height="400"></canvas>
+      </div>
+
+
+      
+
+     
+      
+    </div>
+
+
+
+    <!-----------calender----->
+      <div class="right-content">
+
+
+        <div class="calender">
+
+          <img src="assests/Screenshot 2024-10-30 190454.png" alt="">
+            <!-- <ul>
+                <li><a href="#jan">January</a></li>
+                <li><a href="#jan">febraury</a></li>
+                <li><a href="#jan">march</a></li>
+                <li><a href="#jan">April</a></li>
+                <li><a href="#jan">May</a></li>
+                <li><a href="#jan">June</a></li>
+                <li><a href="#jan">July</a></li>
+                <li><a href="#jan">August</a></li>
+                <li><a href="#jan">September</a></li>
+                <li><a href="#jan">October</a></li>
+                <li><a href="#jan">November</a></li>
+                <li><a href="#jan">December</a></li>
+            </ul> -->
+        </div>
+        
+        <!-- <div class="calendar-container">
+           
+            <button id="prevMonth" class="arrow">&lt;</button>
+            <div class="calendar">
+              <h2 id="monthYear"></h2>
+              <table id="calendarTable">
+                <thead>
+                  <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                  </tr>
+                </thead>
+                <tbody id="calendarBody"></tbody>
+              </table>
+            </div>
+            <button id="nextMonth" class="arrow">&gt;</button>
+          </div> -->
+      
+        
+
+
+    <!-- Main Content (Projects) -->
+    <div class="content">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3 class="front">FrontEnd projects</h3>
+          <p>A responsive Netflix clone built using HTML, CSS, and JavaScript.</p>
+          <button class="view-details-btn">View Details</button>
+        </div>
+        <div class="project-card">
+          <h3 class="back">BackEnd projects</h3>
+          <p>Fully functional blogging platform with user authentication and post management.</p>
+          <button class="view-details-btn1">View Details</button>
+        </div>
+        <div class="project-card">
+          <h3 class="cloud">Cloud Based Projects</h3>
+          <p>Fully functional blogging platform with user authentication and post management.</p>
+          <button class="view-details-btn2">View Details</button>
+        </div>
+        <div class="project-card">
+          <h3 class="freelance">Freelance projects</h3>
+          <p>Fully functional blogging platform with user authentication and post management.</p>
+          <button class="view-details-btn3">View Details</button>
+        </div>
+        <div class="project-card">
+          <h3 class="database">Database</h3>
+          <p>Fully functional blogging platform with user authentication and post management.</p>
+          <button class="view-details-btn4">View Details</button>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
